@@ -1,0 +1,55 @@
+function data()
+return {
+	order = 0,
+	params = {
+		alpha_scale = {
+			alphaScale = 1,
+		},
+		alpha_test = {
+			alphaThreshold = 0.5,
+			cutout = false,
+		},
+		color_blend = {
+			albedoScales = { 1.460000038147, },
+			colors = { { 0.76862698793411, 0.61025500297546, 0.18386800587177, }, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/car/beetle_1948/car_beetle_albedo_opacity.dds",
+			type = "TWOD",
+		},
+		map_cblend = {
+			fileName = "models/vehicle/car/beetle_1948/car_beetle_cblend_dirt_rust.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/car/beetle_1948/car_beetle_metal_gloss_ao.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_normal = {
+			fileName = "models/vehicle/car/beetle_1948/car_beetle_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = false,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT_NRML_MAP_CBLEND",
+}
+end

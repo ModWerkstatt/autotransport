@@ -1,0 +1,132 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.035747051239, 0.77409482002258, 1.4931479692459, },
+		bbMin = { -2.049339056015, -0.77409482002258, -0.0083039999008179, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.0425429344177, 0.77409482002258, 0.75072598457336, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/body_lod0.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/beetle_1948/beetle_1948_interior.mtl", },
+						mesh = "vehicle/car/beetle_1948/interior_lod0.msh",
+						name = "interior",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w1_lod0.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.3075132369995, 0.63995397090912, 0.31827658414841, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w1_lod0.msh",
+						name = "w1_2",
+						transf = { -1, -8.7422776573476e-08, 0, 0, 8.7422776573476e-08, -1, 0, 0, 0, 0, 1, 0, 1.3075132369995, -0.63995397090912, 0.31827658414841, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w2_lod0.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0899221897125, -1.0285889537841e-15, 0.31827658414841, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.3075132369995, 0.63995397090912, 0.31827658414841, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0899221897125, -1.0285889537841e-15, 0.31827658414841, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w1_lod1.msh",
+						name = "w1_2",
+						transf = { 1, 0, -8.7422776573476e-08, 0, 7.6427418606588e-15, -1, 8.7422776573476e-08, 0, 8.7422776573476e-08, 8.7422776573476e-08, 1, 0, 1.3075132369995, -0.63995397090912, 0.31827658414841, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 210,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w1_lod2.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.3075132369995, 0.63995397090912, 0.31827658414841, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w2_lod2.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0899221897125, -1.0285889537841e-15, 0.31827658414841, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/beetle_1948/beetle_1948_6.mtl", },
+						mesh = "vehicle/car/beetle_1948/w1_lod2.msh",
+						name = "w1_2",
+						transf = { 1, 0, -8.7422776573476e-08, 0, 7.6427418606588e-15, -1, 8.7422776573476e-08, 0, 8.7422776573476e-08, 8.7422776573476e-08, 1, 0, 1.3075132369995, -0.63995397090912, 0.31827658414841, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 210,
+			visibleTo = 600,
+		},
+	},
+	metadata = {
+
+	},
+	version = 1,
+}
+end

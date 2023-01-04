@@ -1,0 +1,114 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.0594975948334, 0.89822292327881, 1.4487099647522, },
+		bbMin = { -2.0694103240967, -0.89822292327881, 0.005843847990036, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.0644540786743, 0.89822292327881, 0.72143304347992, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/body_lod0.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva_interior.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/interior_lod0.msh",
+						name = "interior",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/w1_lod0.msh",
+						name = "w1",
+						transf = { 1, 1.5099578831723e-07, 6.890185803671e-16, 0, -1.5099578831723e-07, 1, -1.0403890155241e-22, 0, -6.890185803671e-16, -5.635994745639e-30, 1, 0, 1.4299999475479, -0.59498995542526, 0.30199998617172, 1, },
+					},
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/w2_lod0.msh",
+						name = "w2",
+						transf = { -1, 1.5099578831723e-07, -8.1148318621627e-16, 0, -1.5099578831723e-07, -1, -1.2246480437252e-16, 0, -8.1148318621627e-16, -1.2246468525852e-16, 1, 0, 1.4299999475479, 0.59498995542526, 0.30199998617172, 1, },
+					},
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/w3_lod0.msh",
+						name = "w3",
+						transf = { 1, 1.5099578831723e-07, 6.890185803671e-16, 0, -1.5099578831723e-07, 1, -1.0403890155241e-22, 0, -6.890185803671e-16, -5.635994745639e-30, 1, 0, -0.97499996423721, 1.2128722470806e-09, 0.30199992656708, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4299999475479, -0.59498995542526, 0.30199998617172, 1, },
+					},
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4299999475479, 0.59498995542526, 0.30199998617172, 1, },
+					},
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/w3_lod1.msh",
+						name = "w3",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.97499996423721, 1.2128722470806e-09, 0.30199992656708, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car/lada_riva_2107/lada_riva.mtl", },
+						mesh = "vehicle/car/lada_riva_2107/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 625,
+		},
+	},
+	metadata = {
+	
+	},
+	version = 1,
+}
+end

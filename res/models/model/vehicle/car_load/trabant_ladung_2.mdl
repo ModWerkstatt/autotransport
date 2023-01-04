@@ -1,0 +1,114 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.8359998464584, 0.78695321083069, 1.4696700572968, },
+		bbMin = { -1.7680000066757, -0.78695321083069, 0.00099998712539673, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 1.8019999265671, 0.78695321083069, 0.734335064888, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/body_lod0.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1.0049999952316, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/trabant/trabant_interior.mtl", },
+						mesh = "vehicle/car/trabant/interior_lod0.msh",
+						name = "interior",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/w1_lod0.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1859999895096, -0.55516612529755, 0.28799998760223, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/w1_lod0.msh",
+						name = "w1_2",
+						transf = { 1, -8.7422776573476e-08, 1.2246468525852e-16, 0, -8.7422776573476e-08, -1, -1.2246468525852e-16, 0, -1.2246469849341e-16, -1.2246467202363e-16, 1, 0, 1.1859999895096, 0.55516612529755, 0.28799998760223, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/w2_lod0.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.85800004005432, 0, 0.28799998760223, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1859999895096, -0.55516612529755, 0.28799998760223, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1859999895096, 0.55516612529755, 0.28799998760223, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.85800004005432, 0, 0.28799998760223, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/trabant/trabant_2.mtl", },
+						mesh = "vehicle/car/trabant/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 625,
+		},
+	},
+	metadata = {
+
+	},
+	version = 1,
+}
+end

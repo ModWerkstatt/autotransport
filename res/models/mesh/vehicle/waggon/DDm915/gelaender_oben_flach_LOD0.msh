@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 24456,
+					offset = 39252,
+				},
+				position = {
+					count = 24456,
+					offset = 88164,
+				},
+				tangent = {
+					count = 24456,
+					offset = 112620,
+				},
+				uv0 = {
+					count = 24456,
+					offset = 63708,
+				},
+			},
+			materials = {
+				"vehicle/train/DDm915.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 5388,
+			numComp = 3,
+			offset = 0,
+		},
+		position = {
+			count = 14688,
+			numComp = 3,
+			offset = 5780,
+		},
+		tangent = {
+			count = 18784,
+			numComp = 4,
+			offset = 20468,
+		},
+		uv0 = {
+			count = 392,
+			numComp = 2,
+			offset = 5388,
+		},
+	},
+}
+end

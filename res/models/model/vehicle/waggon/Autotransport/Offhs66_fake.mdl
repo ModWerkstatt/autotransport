@@ -1,0 +1,161 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 5.53922, 1.50757, 3.02565, },
+		bbMin = { -5.53922, -1.50757, -0.06597, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+                    {
+				        _meshId = 1,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/Offhs66.msh",
+				        name = "MSH_achse_13",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse.msh",
+				        name = "MSH_achse_14",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.26527, 0, 0.34838, 1, },
+			        },
+			        {
+				        _meshId = 3,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse.msh",
+				        name = "MSH_Off52_3",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.26527, 0, 0.34838, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+			node = {
+				children = {
+                    {
+				        _meshId = 1,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/Offhs66_LOD1.msh",
+				        name = "MSH_achse_13",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse_LOD1.msh",
+				        name = "MSH_achse_14",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.26527, 0, 0.34838, 1, },
+			        },
+			        {
+				        _meshId = 3,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse_LOD1.msh",
+				        name = "MSH_Off52_3",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.26527, 0, 0.34838, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+            },
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+                    {
+				        _meshId = 1,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/Offhs66_LOD2.msh",
+				        name = "MSH_achse_13",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse_LOD2.msh",
+				        name = "MSH_achse_14",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.26527, 0, 0.34838, 1, },
+			        },
+			        {
+				        _meshId = 3,
+				        materials = { "vehicle/waggon/Offhs66.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse_LOD2.msh",
+				        name = "MSH_Off52_3",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.26527, 0, 0.34838, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+            },
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1953,
+			yearTo = 1964,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("Offhs66_name") .. _("Fake"),
+            description = _("Offhs66_desc"),
+		},
+		emission = {
+			idleEmission = 0,
+			powerEmission = 0,
+			speedEmission = 0,
+		},
+		maintenance = {
+			lifespan = 182625,
+			runningCosts = 0,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Offhs66/achse.msh", },
+				},
+				{
+					axles = { "vehicle/waggon/Offhs66/achse_LOD1.msh", },
+				},
+				{
+					axles = { "vehicle/waggon/Offhs66/achse_LOD2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = "",
+			topSpeed = 27.777777778,
+			weight = 18.4,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+
+            },
+			loadSpeed = 2,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Autotransport/menu_autotransport_fake.mdl",
+		},
+	},
+	version = 1,
+}
+end

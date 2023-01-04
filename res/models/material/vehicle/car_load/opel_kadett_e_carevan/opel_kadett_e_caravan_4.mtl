@@ -1,0 +1,59 @@
+function data()
+return {
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		alpha_scale = {
+			alphaScale = 1,
+		},
+		alpha_test = {
+			alphaThreshold = 0.5,
+			cutout = false,
+		},
+		color_blend = {
+			albedoScales = { 0.66000002622604, },
+			colors = { { 0.23529399931431, 0.12179899960756, 0.19923600554466, }, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/car/opel_kadett_e_carevan/opel_kadett_e_caravan_albedo_opacity.dds",
+			type = "TWOD",
+		},
+		map_cblend = {
+			fileName = "models/vehicle/car/opel_kadett_e_carevan/opel_kadett_e_caravan_cblend.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/car/opel_kadett_e_carevan/opel_kadett_e_caravan_metal_gloss_ao.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_normal = {
+			fileName = "models/vehicle/car/opel_kadett_e_carevan/opel_kadett_e_caravan_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = false,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT_NRML_MAP_CBLEND",
+}
+end

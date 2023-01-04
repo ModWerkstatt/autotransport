@@ -1,0 +1,263 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 15.22024, 1.57849, 5.13491, },
+		bbMin = { -15.04804, -1.57849, -0.07452, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+                    {
+					    children = {
+					        {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/Laaers560.msh",
+						        name = "MSH_Laaers560_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+					        },
+                            {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse.msh",
+						        name = "MSH_achse_5",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.91494, -0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 4,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse.msh",
+						        name = "MSH_achse_6",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.91494, -0, 0.34838, 1, },
+					        },
+				        },
+				        name = "vorderer_Teil",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.61012, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 6,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/Laaers560.msh",
+						        name = "MSH_Laaers560_1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 7,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse.msh",
+						        name = "MSH_achse_1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.91494, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 8,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse.msh",
+						        name = "MSH_achse_2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.91494, 0, 0.34838, 1, },
+					        },
+                        },
+        		        name = "hinterer_Teil",
+                        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.61012, 0, 0, 1, },
+                     },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+			node = {
+				children = {
+                    {
+					    children = {
+					        {
+						        _meshId = 1,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/Laaers560_LOD1.msh",
+						        name = "MSH_Laaers560_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+					        },
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse_LOD1.msh",
+						        name = "MSH_achse_5",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.91494, -0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse_LOD1.msh",
+						        name = "MSH_achse_6",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.91494, -0, 0.34838, 1, },
+					        },
+				        },
+				        name = "vorderer_Teil",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.61012, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+					        {
+						        _meshId = 1,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/Laaers560_LOD1.msh",
+						        name = "MSH_Laaers560_LOD1_1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse_LOD1.msh",
+						        name = "MSH_achse_LOD1_1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.91494, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse_LOD1.msh",
+						        name = "MSH_achse_LOD1_2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.91494, 0, 0.34838, 1, },
+					        },
+                        },
+        		        name = "hinterer_Teil",
+                        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.61012, 0, 0, 1, },
+                     },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 350,
+		},
+		{
+			node = {
+				children = {
+                    {
+					    children = {
+					        {
+						        _meshId = 1,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/Laaers560_LOD2.msh",
+						        name = "MSH_Laaers560_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+					        },
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse_LOD2.msh",
+						        name = "MSH_achse_5",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.91494, -0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laaers560.mtl", },
+						        mesh = "vehicle/waggon/Laaers560/achse_LOD2.msh",
+						        name = "MSH_achse_6",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.91494, -0, 0.34838, 1, },
+					        },
+				        },
+				        name = "vorderer_Teil",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.61012, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+					        {
+					            _meshId = 3,
+					            _origMeshId = 3,
+					            materials = { "vehicle/waggon/Laaers560.mtl", },
+					            mesh = "vehicle/waggon/Laaers560/Laaers560_LOD2.msh",
+					            name = "MSH_Laaers560_LOD2_1",
+					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+				            },
+                            {
+					            _meshId = 1,
+					            _origMeshId = 1,
+					            materials = { "vehicle/waggon/Laaers560.mtl", },
+					            mesh = "vehicle/waggon/Laaers560/achse_LOD2.msh",
+					            name = "MSH_achse_LOD2_1",
+					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.91494, 0, 0.34838, 1, },
+				            },
+				            {
+					            _meshId = 2,
+					            _origMeshId = 2,
+					            materials = { "vehicle/waggon/Laaers560.mtl", },
+					            mesh = "vehicle/waggon/Laaers560/achse_LOD2.msh",
+					            name = "MSH_achse_LOD2_2",
+					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.91494, 0, 0.34838, 1, },
+				            },
+                        },
+        		        name = "hinterer_Teil",
+                        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.61012, 0, 0, 1, },
+                     },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 350,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2007,
+			yearTo = 0,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("Laaers560_name") .. _("Fake"),
+            description = _("Laaers560_desc"),
+		},
+		emission = {
+			idleEmission = 0,
+			powerEmission = 0,
+			speedEmission = 0,
+		},
+		maintenance = {
+			lifespan = 182625,
+			runningCosts = 0,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Laaers560/achse.msh", },
+				},
+				{
+					axles = { "vehicle/waggon/Laaers560/achse_LOD1.msh", },
+				},
+				{
+					axles = { "vehicle/waggon/Laaers560/achse_LOD2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = "",
+			topSpeed = 33.333333333333,
+			weight = 14.8,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+
+            },
+			loadSpeed = 2,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Autotransport/menu_autotransport_fake.mdl",
+		},
+	},
+	version = 1,
+}
+end

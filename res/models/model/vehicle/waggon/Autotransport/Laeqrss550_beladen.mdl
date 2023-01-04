@@ -1,0 +1,523 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 12.965, 1.37562, 5.13491, },
+		bbMin = { -12.965, -1.37562, -0.07452, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+                        children = {
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.81939, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_v.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.31, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 5,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 6,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_m.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0, 1, },
+					        },
+                        },
+                        name = "Teil2",
+        				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 8,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.81939, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 9,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_h.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.31, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+			node = {
+				children = {
+					{
+                        children = {
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.81939, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_v.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.31, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 5,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 6,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_m.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0, 1, },
+					        },
+                        },
+                        name = "Teil2",
+        				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 8,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.81939, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 9,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_h.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.31, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+            },
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+                        children = {
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.81939, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_v.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.31, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 5,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 6,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_m.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0, 1, },
+					        },
+                        },
+                        name = "Teil2",
+        				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 8,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.81939, 0, 0.34838, 1, },
+					        },
+					        {
+						        _meshId = 9,
+						        materials = { "vehicle/waggon/Laeqrss550.mtl", },
+						        mesh = "vehicle/waggon/Laeqrss550/Laeqrss550_h.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.31, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+            },
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1963,
+			yearTo = 1976,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("Laeqrss550_name") .. _("loaded"),
+            description = _("Laeqrss550_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Laeqrss550/achse.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/Off52/achse_LOD1.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/Off52/achse_LOD2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+			},
+			engines = { },
+			soundSet = "waggon_modern",
+			topSpeed = 33.333333333,
+			weight = 19.2,
+		},
+        cargoSlotProvider = {
+			slots = {
+                -- Unterdeck
+                {
+					models = {
+                        "vehicle/car_load/beetle_1948_ladung.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_1.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_2.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_3.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_4.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_5.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_6.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_1.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_2.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_3.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_4.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_5.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
+                    },
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.57515, 0, 1.27699, 1, },
+					randomId = 0,
+				},
+                {
+					models = {
+                        "vehicle/car_load/beetle_1948_ladung.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_1.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_2.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_3.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_4.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_5.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_6.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_1.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_2.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_3.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_4.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_5.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
+                    },
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.55015, 0, 1.27699, 1, },
+					randomId = 1,
+				},
+                {
+					models = {
+                        "vehicle/car_load/beetle_1948_ladung.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_1.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_2.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_3.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_4.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_5.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_6.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_1.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_2.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_3.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_4.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_5.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
+                    },
+					group = 7,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.79659, 0, 1.2987, 1, },
+					randomId = 2,
+				},
+                {
+					models = {
+                        "vehicle/car_load/beetle_1948_ladung.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_1.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_2.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_3.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_4.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_5.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_6.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_1.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_2.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_3.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_4.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_5.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
+                    },
+					group = 7,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.76559, 0, 1.2987, 1, },
+					randomId = 3,
+				},
+
+                -- Oberdeck
+                {
+					models = {
+                        "vehicle/car_load/beetle_1948_ladung.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_1.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_2.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_3.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_4.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_5.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_6.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_1.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_2.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_3.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_4.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_5.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
+                    },
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.60529, 0, 3.1, 1, },
+					randomId = 4,
+				},
+                {
+					models = {
+                        "vehicle/car_load/beetle_1948_ladung.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_1.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_2.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_3.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_4.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_5.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_6.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_1.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_2.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_3.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_4.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_5.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
+                    },
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.53329, 0, 3.1, 1, },
+					randomId = 5,
+				},
+                {
+					models = {
+                        "vehicle/car_load/beetle_1948_ladung.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_1.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_2.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_3.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_4.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_5.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_6.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_1.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_2.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_3.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_4.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_5.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
+                    },
+					group = 7,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.81335, 0, 3.1, 1, },
+					randomId = 6,
+				},
+                {
+					models = {
+                        "vehicle/car_load/beetle_1948_ladung.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_1.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_2.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_3.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_4.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_5.mdl",
+                        "vehicle/car_load/beetle_1948_ladung_6.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_1.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_2.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_3.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_4.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_5.mdl",
+                        "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
+                    },
+					group = 7,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.8535, 0, 3.1, 1, },
+					randomId = 7,
+				},
+            },
+        },
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+			    {
+				    {
+					    {
+						    capacity = 40,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { 3, 2, 0, 1, 7, 6, 4, 5 },
+										},
+									},
+                                },
+                            },
+						    type = "MACHINES",
+					    },
+				    },
+				    {
+					    {
+						    capacity = 40,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { 3, 2, 0, 1, 7, 6, 4, 5 },
+										},
+									},
+                                },
+                            },
+						    type = "PASSENGERS",
+					    },
+				    },
+				    {
+					    {
+						    capacity = 40,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { 3, 2, 0, 1, 7, 6, 4, 5 },
+										},
+									},
+                                },
+                            },
+						    type = "MWCARS",
+					    },
+				    },
+                },
+            },
+			loadSpeed = 2,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Autotransport/menu_autotransport_beladen.mdl",
+		},
+	},
+	version = 1,
+}
+end

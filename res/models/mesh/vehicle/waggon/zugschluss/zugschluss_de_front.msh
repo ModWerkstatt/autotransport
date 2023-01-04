@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 648,
+					offset = 3700,
+				},
+				position = {
+					count = 648,
+					offset = 2404,
+				},
+				tangent = {
+					count = 648,
+					offset = 1756,
+				},
+				uv0 = {
+					count = 648,
+					offset = 3052,
+				},
+			},
+			materials = {
+				"vehicle/waggon/zugschluss.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 120,
+			numComp = 3,
+			offset = 1636,
+		},
+		position = {
+			count = 396,
+			numComp = 3,
+			offset = 544,
+		},
+		tangent = {
+			count = 544,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 696,
+			numComp = 2,
+			offset = 940,
+		},
+	},
+}
+end

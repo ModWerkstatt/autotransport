@@ -1,0 +1,153 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 5.70002, 1.39944, 1.61661, },
+		bbMin = { -5.70002, -1.39944, -0.06008, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/Flachwagen/lod_2_body.msh",
+						name = "MSH_lod_2_body_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/rungenwagen_1890/lod_2_w1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.9695999622345, 0, 0.44020000100136, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/rungenwagen_1890/lod_2_w1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9695999622345, 0, 0.44020000100136, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 210,
+			visibleTo = 1170,
+		},
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/Flachwagen/lod_1_body.msh",
+						name = "MSH_lod_1_body_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/rungenwagen_1890/lod_1_w1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.9695999622345, 0, 0.44020000100136, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/rungenwagen_1890/lod_1_w1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9695999622345, 0, 0.44020000100136, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 210,
+		},
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/Flachwagen/lod_0_body.msh",
+						name = "MSH_lod_0_body_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+						_meshId = 2,
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/rungenwagen_1890/lod_0_w1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.9695999622345, 0, 0.44020000100136, 1, },
+					},
+					{
+						_meshId = 3,
+						materials = { "vehicle/waggon/waggon_rungenwagen_1890.mtl", },
+						mesh = "vehicle/waggon/rungenwagen_1890/lod_0_w1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9695999622345, 0, 0.44020000100136, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1938,
+			yearTo = 1958,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			description = _("Flachwagen_desc"),
+			name = _("Flachwagen_name") .. _("Fake"),
+		},
+		emission = {
+			idleEmission = 0,
+			powerEmission = 0,
+			speedEmission = 0,
+		},
+		maintenance = {
+			lifespan = 182625,
+			runningCosts = 0,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/rungenwagen_1890/lod_2_w1.msh", },
+				},
+				{
+					axles = { "vehicle/waggon/rungenwagen_1890/lod_1_w1.msh", },
+				},
+				{
+					axles = { "vehicle/waggon/rungenwagen_1890/lod_0_w1.msh", },
+				},
+			},
+			engines = { },
+			soundSet = {
+				name = "",
+			},
+			topSpeed = 19.4444444444,
+			weight = 10,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+
+            },
+			loadSpeed = 2,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Autotransport/menu_autotransport_fake.mdl",
+		},
+	},
+	version = 1,
+}
+end

@@ -1,0 +1,114 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.3954975605011, 0.96157491207123, 1.8218499422073, },
+		bbMin = { -2.4922199249268, -0.96157491207123, -0.00099629163742065, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.4438586235046, 0.96157491207123, 0.91142308712006, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/body_lod0.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22_interior.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/interior_lod0.msh",
+						name = "interior",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/w1_lod0.msh",
+						name = "w1",
+						transf = { 0.91224992275238, 1.3774591423044e-07, 6.2855715683385e-16, 0, -1.3774591423044e-07, 0.91224992275238, -9.4909490026936e-23, 0, -6.2855715683385e-16, -5.1414358723045e-30, 0.91224992275238, 0, 1.5, -0.59498995542526, 0.33399996161461, 1, },
+					},
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/w2_lod0.msh",
+						name = "w2",
+						transf = { -0.91224992275238, 1.3774591423044e-07, -3.3515518770966e-16, 0, -1.3774591423044e-07, -0.91224992275238, -1.1171841796137e-16, 0, -3.3515518770966e-16, -1.117183782567e-16, 0.91224992275238, 0, 1.5, 0.59498995542526, 0.33399996161461, 1, },
+					},
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/w3_lod0.msh",
+						name = "w3",
+						transf = { 0.91224992275238, 7.9751423243124e-08, 2.2343680945296e-16, 0, -7.9751423243124e-08, 0.91224992275238, -1.953346607933e-23, 0, -2.2343680945296e-16, 8.2360522684714e-31, 0.91224992275238, 0, -1.1499999761581, -0.59498995542526, 0.33399996161461, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, -0.59498995542526, 0.33399996161461, 1, },
+					},
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0.59498995542526, 0.33399996161461, 1, },
+					},
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/w3_lod1.msh",
+						name = "w3",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1499999761581, -0.59498995542526, 0.33399996161461, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car/gaz_22_wolga/gaz_22.mtl", },
+						mesh = "vehicle/car/gaz_22_wolga/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 625,
+		},
+	},
+	metadata = {
+
+	},
+	version = 1,
+}
+end

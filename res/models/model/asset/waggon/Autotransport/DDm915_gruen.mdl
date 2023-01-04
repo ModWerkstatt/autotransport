@@ -1,0 +1,253 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 13.19285, 1.51178, 3.20448, },
+		bbMin = { -13.19285, -1.51178, -0.05022, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+				    {
+					    _meshId = 1,
+					    materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+					    mesh = "vehicle/waggon/DDm915/DDm915_rumpf_LOD0.msh",
+					    name = "MSH_DDm915_gruen_1",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+				    },
+                    {
+					    _meshId = 2,
+					    materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+					    mesh = "vehicle/waggon/DDm915/gelaender_oben_flach_LOD0.msh",
+					    name = "MSH_DDm915_gruen_1",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+				    },
+					{
+                        children = {
+							{
+								_meshId = 4,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse.msh",
+								name = "MSH_achse_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.25659, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 5,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse.msh",
+								name = "MSH_achse_2",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.25484, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 6,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/bogie.msh",
+								name = "MSH_bogie_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_bogie_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.52006, 0, 0.73862, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								_meshId = 8,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse.msh",
+								name = "MSH_achse_3",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.25659, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 9,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse.msh",
+								name = "MSH_achse_4",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.25484, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 10,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/bogie.msh",
+								name = "MSH_bogie_2",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_bogie_2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.52006, 0, 0.73862, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+        				mesh = "vehicle/waggon/DDm915/DDm915_rumpf_LOD1.msh",
+        				name = "MSH_DDm915_gruen_LOD1_1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+			        },
+                    {
+						children = {
+                            {
+								_meshId = 3,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse_LOD1.msh",
+								name = "MSH_achse_LOD1_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.25659, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 4,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse_LOD1.msh",
+								name = "MSH_achse_LOD1_2",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.25484, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 5,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/bogie_LOD1.msh",
+								name = "MSH_bogie_LOD1_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_bogie_LOD1_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.52006, 0, 0.73862, 1, },
+					},
+					{
+						children = {
+							{
+								_meshId = 7,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse_LOD1.msh",
+								name = "MSH_achse_LOD1_3",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.25659, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 8,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse_LOD1.msh",
+								name = "MSH_achse_LOD1_4",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.25484, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 9,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/bogie_LOD1.msh",
+								name = "MSH_bogie_LOD1_2",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_bogie_LOD1_2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.52006, 0, 0.73862, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+    					_meshId = 1,
+    					materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+    					mesh = "vehicle/waggon/DDm915/DDm915_rumpf_LOD2.msh",
+						name = "MSH_DDm915_gruen_LOD2_1",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+				    },
+                    {
+                        children = {
+							{
+								_meshId = 3,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse_LOD2.msh",
+								name = "MSH_achse_LOD2_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.25659, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 4,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse_LOD2.msh",
+								name = "MSH_achse_LOD2_2",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.25484, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 5,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/bogie_LOD2.msh",
+								name = "MSH_bogie_LOD2_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_bogie_LOD2_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.52006, 0, 0.73862, 1, },
+					},
+					{
+						children = {
+							{
+								_meshId = 6,
+								_origMeshId = 6,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse_LOD2.msh",
+								name = "MSH_achse_LOD2_3",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.25659, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 7,
+								_origMeshId = 7,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/achse_LOD2.msh",
+								name = "MSH_achse_LOD2_4",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.25484, 0, -0.3091, 1, },
+							},
+							{
+								_meshId = 8,
+								_origMeshId = 8,
+								materials = { "vehicle/waggon/DDm915_gruen.mtl", },
+								mesh = "vehicle/waggon/DDm915/bogie_LOD2.msh",
+								name = "MSH_bogie_LOD2_2",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_bogie_LOD2_2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.52006, 0, 0.73862, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 2000,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1968,
+			yearTo = 1996,
+		},
+		description = {
+			name = _("DDm915_gruen_name"),
+            description = _("DDm915_gruen_desc"),
+		},
+	},
+	version = 1,
+}
+end

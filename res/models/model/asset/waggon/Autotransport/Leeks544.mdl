@@ -1,0 +1,122 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 5.53922, 1.50757, 3.02565, },
+		bbMin = { -5.53922, -1.50757, -0.06597, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+                    {
+				        _meshId = 1,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/Offhs66.msh",
+				        name = "MSH_achse_13",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse.msh",
+				        name = "MSH_achse_14",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.26527, 0, 0.34838, 1, },
+			        },
+			        {
+				        _meshId = 3,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse.msh",
+				        name = "MSH_Off52_3",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.26527, 0, 0.34838, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+			node = {
+				children = {
+                    {
+				        _meshId = 1,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/Offhs66_LOD1.msh",
+				        name = "MSH_achse_13",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse_LOD1.msh",
+				        name = "MSH_achse_14",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.26527, 0, 0.34838, 1, },
+			        },
+			        {
+				        _meshId = 3,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse_LOD1.msh",
+				        name = "MSH_Off52_3",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.26527, 0, 0.34838, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+            },
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+                    {
+				        _meshId = 1,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/Offhs66_LOD2.msh",
+				        name = "MSH_achse_13",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse_LOD2.msh",
+				        name = "MSH_achse_14",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.26527, 0, 0.34838, 1, },
+			        },
+			        {
+				        _meshId = 3,
+				        materials = { "vehicle/waggon/Leeks544.mtl", },
+				        mesh = "vehicle/waggon/Offhs66/achse_LOD2.msh",
+				        name = "MSH_Off52_3",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.26527, 0, 0.34838, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+            },
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1964,
+			yearTo = 1999,
+		},
+		description = {
+			name = _("Leeks544_name"),
+            description = _("Leeks544_desc"),
+		},
+	},
+	version = 1,
+}
+end

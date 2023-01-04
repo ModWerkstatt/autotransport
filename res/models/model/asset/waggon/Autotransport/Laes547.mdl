@@ -1,0 +1,242 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 12.9945, 1.37562, 5.13491, },
+		bbMin = { -12.9945, -1.37562, -0.07452, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+                        children = {
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548.msh",
+						        name = "MSH_Laae540_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+					        },
+                            {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.73284, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.39725, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 5,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548_dg.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 6,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil2",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+
+					        {
+						        _meshId = 8,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548.msh",
+						        name = "MSH_Laae540_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+    					        _meshId = 9,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.73284, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil3",
+        				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.39725, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+			node = {
+				children = {
+					{
+                        children = {
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548_LOD1.msh",
+						        name = "MSH_Laae540_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+					        },
+                            {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse_LOD1.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.73284, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.39725, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 5,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548_dg_LOD1.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 6,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse_LOD1.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil2",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+
+					        {
+						        _meshId = 8,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548_LOD1.msh",
+						        name = "MSH_Laae540_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+    					        _meshId = 9,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse_LOD1.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.73284, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil3",
+        				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.39725, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+            },
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+                        children = {
+                            {
+						        _meshId = 2,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548_LOD2.msh",
+						        name = "MSH_Laae540_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+					        },
+                            {
+						        _meshId = 3,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse_LOD2.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.73284, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil1",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.39725, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 5,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548_dg_LOD2.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 6,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse_LOD2.msh",
+						        name = "MSH_achse_13",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil2",
+        				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+
+					        {
+						        _meshId = 8,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/Laes548_LOD2.msh",
+						        name = "MSH_Laae540_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+    					        _meshId = 9,
+						        materials = { "vehicle/waggon/Laes547.mtl", },
+						        mesh = "vehicle/waggon/Laes548/achse_LOD2.msh",
+						        name = "MSH_achse_14",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.73284, 0, 0.34838, 1, },
+					        },
+                        },
+                        name = "Teil3",
+        				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.39725, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+            },
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1964,
+			yearTo = 1984,
+		},
+		description = {
+			name = _("Laes547_name"),
+            description = _("Laes547_desc"),
+		},
+	},
+	version = 1,
+}
+end
